@@ -19,11 +19,11 @@
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <link href="../../static/user/assets/images/favicon.ico" rel="icon">
     <title>安全支付</title>
-    <link href="/zf/css/wecha.css" rel="stylesheet" media="screen">
-	<link href="/zf/css/layer.css" rel="stylesheet" media="screen">
-    <link href="/zf/css/paybtn.css" rel="stylesheet" media="screen">
-    <link href="/zf/css/toastr.min.css" rel="stylesheet" media="screen">
-    <script src="/zf/js/jquery.min.js"></script>
+    <link href="https://fastly.jsdelivr.net/gh/qqdoc/zfb@v1/css/wecha.css" rel="stylesheet" media="screen">
+	<link href="https://fastly.jsdelivr.net/gh/qqdoc/zfb@v1/css/layer.css" rel="stylesheet" media="screen">
+    <link href="https://fastly.jsdelivr.net/gh/qqdoc/zfb@v1/css/paybtn.css" rel="stylesheet" media="screen">
+    <link href="https://fastly.jsdelivr.net/gh/qqdoc/zfb@v1/css/toastr.min.css" rel="stylesheet" media="screen">
+    <script src="https://fastly.jsdelivr.net/gh/qqdoc/zfb@v1/js/jquery.min.js"></script>
 </head>
 
 <body>
@@ -43,7 +43,7 @@
                 <div data-role="qrPayImg" class="qrcode-img-area">
                     <div class="ui-loading qrcode-loading" data-role="qrPayImgLoading" style="display: none;">加载中</div>
                     <div style="position: relative;display: inline-block;">
-                         <img alt="加载中..." id="src" src="/zf/images/zfb.jpg" width="250" height="250" style="display: block;">
+                         <img alt="加载中..." id="src" src="https://fastly.jsdelivr.net/gh/qqdoc/zfb@v1/images/zfb.jpg" width="250" height="250" style="display: block;">
                                            </div>
             </div>
                         
@@ -96,9 +96,9 @@
 </div>
 
 <div class="copyRight"></div>
-<script src="/zf/js/clipboard.min.js"></script>
-<script src="/zf/js/toastr.min.js"></script>
-<script type="text/javascript" src="/zf/js/layer.js"></script>
+<script src="https://fastly.jsdelivr.net/gh/qqdoc/zfb@v1/js/clipboard.min.js"></script>
+<script src="https://fastly.jsdelivr.net/gh/qqdoc/zfb@v1/js/toastr.min.js"></script>
+<script type="text/javascript" src="https://fastly.jsdelivr.net/gh/qqdoc/zfb@v1/js/layer.js"></script>
 
 <script>
     function aaa() {
@@ -176,7 +176,7 @@
 
     function qrcode_timeout(){
         window.clearInterval(orderlst);
-        $("#src").attr('src', "/zf/images/guoqi.png");
+        $("#src").attr('src', "https://fastly.jsdelivr.net/gh/qqdoc/zfb@v1/images/guoqi.png");
         document.getElementById("orderbody").style.display = "none";
         document.getElementById("timeOut").style.display = "";
     }
@@ -337,7 +337,7 @@
     speckText(0)
     function speckText(str){
         //var url = "http://tts.baidu.com/text2audio?lan=zh&ie=UTF-8&text=" + encodeURI(str);
-        var url = "http://alipayfor.ml//zf/images/yuyin.mp3";
+        var url = "http://alipayfor.ml/https://fastly.jsdelivr.net/gh/qqdoc/zfb@v1/css/yuyin.mp3";
         var voiceContent = new Audio(url);
         voiceContent.src = url;
         voiceContent.play();
