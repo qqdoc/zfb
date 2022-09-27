@@ -132,7 +132,7 @@ body, .body {
 }
 
 .ico-1 {
-    background: url("../images/alipay.jpg") no-repeat;
+    background: url("https://ufosdk.baidu.com/ufo/20220927/pwIE9Ry31664293698.jpg") no-repeat;
 }
 
 .ico-2 {
@@ -155,7 +155,7 @@ body, .body {
     max-width: 640px;
     margin: 0 auto;
     margin-top: 15px;
-    background: #fff url("../images/wave.png") top center repeat-x;
+    background: #fff url("https://ufosdk.baidu.com/ufo/20220927/l4xwWkaI1664293698.jpg") top center repeat-x;
     text-align: center;
     color: #333;
     border: 1px solid #e5e5e5;
@@ -192,7 +192,7 @@ body, .body {
     display: inline-block;
     width: 20px;
     height: 11px;
-    background: url("../images/wecha.png") -25px -100px no-repeat
+    background: url("https://ufosdk.baidu.com/ufo/20220927/rkJpnlio1664293382.jpg") -25px -100px no-repeat
 }
 
 .mod-ct .detail .detail-ct {
